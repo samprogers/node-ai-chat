@@ -19,8 +19,8 @@ OPENAI_API_KEY="YOUR API KEY"
 2. Start the socket.io server
 `cd src && npm run watch`
 3. Navigate to `http://0.0.0.0:3000` in your browser
-![Alt text](docs/initial-message.png)
-   
+![Alt text](docs/project-setup.png)
+
 # Usage Examples  
 
 The initial first concept was to implement a chatbot for a person with mental health struggles and suggest recipes for baking to help them feel better and keep busy.
