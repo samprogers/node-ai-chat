@@ -18,7 +18,9 @@ OPENAI_API_KEY="YOUR API KEY"
 ```
 2. Start the socket.io server
 `cd src && npm run watch`
-
+3. Navigate to `http://0.0.0.0:3000` in your browser
+![Alt text](docs/initial-message.png)
+   
 # Usage Examples  
 
 The initial first concept was to implement a chatbot for a person with mental health struggles and suggest recipes for baking to help them feel better and keep busy.
@@ -42,4 +44,5 @@ Its been shown through numerous studies and antecdotal evidence that baking impr
 2. Admin interface for storing and updating prompts
 3. Ability to train custom models using the openai api for example having it ingest custom recipes
 4. Admin interface for uploading and storing custom models
-5. There's some concurrency issues with duplicate messages to be diagnosed
+5. There's some concurrency issues with duplicate messages to be diagnosed. Implementing some sort of session logic most likely to resolve
+6. Add different routes ie `/recipes`, `/customer-service` etc which will load different models and chat functionality
