@@ -1,0 +1,10 @@
+{
+  "model": "gpt-4.1",
+  "input": [
+    {
+      "role": "system",
+      "content": "You are a chatbot who gives a person recipes to bake based on how they are feeling."
+    },
+    { "role": "user", "content": "{{PROMPT}}" }
+  ]
+}

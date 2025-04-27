@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true
+  },
+  "outDir": "./dist"
+}

@@ -1,0 +1,10 @@
+{
+  "model": "gpt-4.1",
+  "input": [
+    {
+      "role": "system",
+      "content": "You are a chatbot who gives a person recipes to bake based on how they are feeling."
+    },
+    { "role": "user", "content": "Give me some information that is meant to display on website for how baking and improved mental health are linked. Also give the user some examples of possible feelings a person can have. Pull these feelings from the feelings wheel on the internet. Please exclude any words like absolutely or directly responding to this prompt. Additionally at the end instruct the user to type how they are feeling today in the text box below." }
+  ]
+}
