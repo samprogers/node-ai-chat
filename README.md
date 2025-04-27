@@ -40,9 +40,11 @@ Its been shown through numerous studies and antecdotal evidence that baking impr
 ![Alt text](docs/recipe-message.png)
 
 # Future Enhancements
-1. generalize the logic so different chats can be created for different applications utilizing the prompts dir and json structure
-2. Admin interface for storing and updating prompts
-3. Ability to train custom models using the openai api for example having it ingest custom recipes
-4. Admin interface for uploading and storing custom models
-5. There's some concurrency issues with duplicate messages to be diagnosed. Implementing some sort of session logic most likely to resolve
-6. Add different routes ie `/recipes`, `/customer-service` etc which will load different models and chat functionality
+1. Add unit tests and a CI pipeline using GH actions
+2. generalize the logic so different chats can be created for different applications utilizing the prompts dir and json structure
+3. Admin interface for storing and updating prompts
+4. Ability to train custom models using the openai api for example having it ingest custom recipes
+5. Admin interface for uploading and storing custom models
+6. There's some concurrency issues with duplicate messages to be diagnosed. Implementing some sort of session logic most likely to resolve
+7. Add different routes ie `/recipes`, `/customer-service` etc which will load different models and chat functionality
+8. Implement CD and possibly host but need a way to control api costs first
